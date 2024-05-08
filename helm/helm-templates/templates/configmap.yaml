@@ -1,0 +1,8 @@
+cat <<EOF > configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: helm-templates-configmap
+data:
+  myvalue: "Hello World"
+EOF
